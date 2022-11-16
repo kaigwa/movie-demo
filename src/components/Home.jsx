@@ -64,9 +64,9 @@ const Home = () => {
             >
               <img className="pic" src={API_IMG + movieReq.poster_path} />
 
-//               <Button type="button" className="b">
-//                 {movieReq.title}
-//               </Button>
+               {/* <Button type="button" className="b">
+                 {movieReq.title}
+              </Button> */}
             </Link>
           </div>
         ))}
