@@ -4,7 +4,7 @@ import Rightside from "./Rightside";
 import Header from "./Header";
 import { Link } from "react-router-dom";
 import "./Home/home.css";
-// import { Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 
 
@@ -60,12 +60,13 @@ const Home = () => {
                 title: movieReq.title,
                 poster_path: movieReq.poster_path,
               }}
+            
             >
               <img className="pic" src={API_IMG + movieReq.poster_path} />
 
-              {/* <Button type="button" className="b">
+              <Button type="button" className="b">
                 {movieReq.title}
-              </Button> */}
+              </Button>
             </Link>
           </div>
         ))}
