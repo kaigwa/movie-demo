@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.movies{
+   background-color: #191919;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.trending{
+  overflow-y: auto;
+  -ms-text-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.trending::-webkit-scrollbar{
+  display: none;
+}
+
+.pic{
+  border-radius: 8px;
+  height: 270px;
+  width: 200px;
+  
+}
+ 
+.b{
+  border: none;
+  background-color: transparent;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.b:hover{
+color: #3DD2CC;
+}
+
